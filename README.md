@@ -1,0 +1,2 @@
+# Web-Application-Firewall-using-ModSecurity
+i have implemented WAF using mod security.The model also addresses SQL attacks which is generally injected through text boxes which pass data to web application via web requests or sometimes using URLs.  first we will be installing nginx and then we will confire it to mod security so,here nginx is open source web sever and  mod security acts as security application module for nginx web server.  in my project test will be done with sql injection which it will identify all the threats using mod secuirty.
