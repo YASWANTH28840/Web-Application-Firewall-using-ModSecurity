@@ -7,36 +7,36 @@ To begin the installation process, follow the steps outlined below:
 
 Install all the dependencies required for the build and compilation process with the following command:
 
-sudo apt-get install bison build-essential ca-certificates curl dh-autoreconf doxygen \
+1.sudo apt-get install bison build-essential ca-certificates curl dh-autoreconf doxygen \
   flex gawk git iputils-ping libcurl4-gnutls-dev libexpat1-dev libgeoip-dev liblmdb-dev \
   libpcre3-dev libpcre++-dev libssl-dev libtool libxml2 libxml2-dev libyajl-dev locales \
   lua5.3-dev pkg-config wget zlib1g-dev zlibc libxslt libgd-dev
-Ensure that git is installed:
+2.Ensure that git is installed:
 
-sudo apt install git
-Clone the ModSecurity Github repository from the /opt directory:
+3.sudo apt install git
+  Clone the ModSecurity Github repository from the /opt directory:
 
-cd /opt && sudo git clone https://github.com/SpiderLabs/ModSecurity
-Change your directory to the ModSecurity directory:
+4.cd /opt && sudo git clone https://github.com/SpiderLabs/ModSecurity
 
-cd ModSecurity
-Run the following git commands to initialize and update the submodule:
+5.Change your directory to the ModSecurity directory:
+  cd ModSecurity
 
+6.Run the following git commands to initialize and update the submodule:
 sudo git submodule init
 sudo git submodule update
-Run the build.sh script:
 
+7.Run the build.sh script:
 sudo ./build.sh
-Run the configure file, which is responsible for getting all the dependencies for the build process:
 
+8.Run the configure file, which is responsible for getting all the dependencies for the build process:
 sudo ./configure
-Run the make command to build ModSecurity:
 
+9.Run the make command to build ModSecurity:
 sudo make
-After the build process is complete, install ModSecurity by running the following command:
 
+10.After the build process is complete, install ModSecurity by running the following command:
 sudo make install
+
 Downloading ModSecurity-Nginx Connector
 Before compiling the ModSecurity module, clone the Nginx-connector from the /opt directory:
-
 cd /opt && sudo git clone --depth 1 https://github.com/SpiderLabs/ModSecurity-nginx.git
