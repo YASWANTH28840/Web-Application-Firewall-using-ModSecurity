@@ -1,0 +1,115 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  
+  #Title-page{
+    background-color: #66BFBF;
+    color:#fff;
+  }
+
+.container-fluid{
+    margin:0 10px;
+  }
+  h1{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color:  #000;
+    font-size: 3.1rem;
+    line-height: 1.5;
+    margin-bottom: 5%
+  }
+  h2{
+    color: #000;
+    padding-bottom: 5%;
+  }
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #66BFBF;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  p{
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+  }
+  .tit{
+    text-align: center;
+    padding-bottom: 21%;
+    padding-top: 8%;
+  }
+  .navbar{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 3% 6% 4% 2%;
+  
+  }
+  
+  .navbar-brand{
+    font-size: 2.4rem;
+  }
+  
+  .nav-item{
+    font-size:1.2rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+  
+  .download-button{
+    margin: 6px 2px 5px ;
+  
+  }
+  
+
+  
+
+  
+  .features-icon{
+    margin-bottom: 5%;
+    color: #fff;
+  }
+  
+  .fab:hover{
+    color: #000;
+  }
+  
+  .sl:hover{
+    color: #000;
+  }
+
+  .fixed-bg {
+    padding-top: 20%;
+    text-align: center;
+    background-image: url("pan.jpeg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+  
+  .tu{
+    text-align: center;
+  }
+  
+  .tu img{
+    width: 70%
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #000;
+  }
+
+  
+
